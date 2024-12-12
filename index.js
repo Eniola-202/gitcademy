@@ -1,2 +1,5 @@
 alert("Welcome!");
-//document.querySelector("h1").addEventListener("click", "Welcome Eniola");
+var heading= document.querySelector("h1");
+heading.addEventListener("click", function (){
+    heading.innerHTML= "Welcome Back";
+});
